@@ -1,0 +1,7 @@
+# Запит: чи скидати лічильник оброблених повідомлень
+bool reset_counter
+---
+# Відповідь
+bool success
+uint32 processed_before_reset
+string message

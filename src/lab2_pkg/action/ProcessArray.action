@@ -1,0 +1,11 @@
+# Goal: масив вхідних даних
+float64[] data
+---
+# Result: оброблений масив (кожен елемент зводиться до квадрата)
+float64[] processed
+bool succeeded
+---
+# Feedback: періодичний стан виконання
+uint32 processed_count
+float32 progress_percent
+string state
